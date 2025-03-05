@@ -1,0 +1,19 @@
+.styled-button {
+  font-family: 'Times New Roman', Times, serif;
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 8px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.styled-button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+#app {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
